@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Index</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+</head>
+<body>
+ 
+<div class="container">
+<h3 align="center">Row 1 - Information</h3>
+<div class="row">
+  <div class="col-sm-3">
+    <div>Today's Order: <span id="todaysOrderId"></span></div>
+    <div>Current Week Order: <span id="currentWeekOrderId"></span></div>
+  </div>
+  <div class="col-sm-3">
+    <div>Today's Order: <span id="todaysOrderId"></span></div>
+    <div>Current Week Order:<span id="currentWeekOrderId"></span></div>
+  </div>
+  <div class="col-sm-3">
+    <div>Today's Order: <span id="todaysOrderId"></span></div>
+    <div>Current Week Order:<span id="currentWeekOrderId"></span></div>
+  </div>
+  <div class="col-sm-3">
+    <div>Today's Order: <span id="todaysOrderId"></span></div>
+    <div>Current Week Order: <span id="currentWeekOrderId"></span></div>
+  </div>
+</div>
+
+<h3 align="center">Row 2 - Daily Order Trend</h3>
+  <div class="rowId">
+  <canvas id="myChart"></canvas>
+  </div>
+
+<h3 align="center">Row 3 - Top five and Bottom five order tables.</h3>
+    <h3 align="center">Top 5 Orders</h3>
+    <div id="topOrderId"></div>
+    <h3 align="center">Bottom 5 Orders</h3>
+    <div id="bottomOrderId"></div>
+
+<h3 align="center">Row 4 - Top five and Bottom five user tables.</h3>
+      <h3 align="center">Top 5 Users</h3>
+      <div id="topUserId"></div>
+      <h3 align="center">Bottom 5 Users</h3>
+      <div id="bottomUserId"></div>
+
+<h3 align="center">Row 5 - Detail Order Report.</h3>
+ <div id="orderDetailId"></div>
+</div>
+</body>
+<script src="./index.js"></script>
+
+</html>
